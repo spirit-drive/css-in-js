@@ -6,7 +6,7 @@ module.exports = {
     '^src(.*)$': '<rootDir>/src$1',
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
       '<rootDir>/__mocks__/fileMock.js',
-    '\\.(css|less|sass)$': 'identity-obj-proxy',
+    '\\.(css|less|sass|scss)$': 'identity-obj-proxy',
   },
   transformIgnorePatterns: ['/node_modules/(?!react-file-drop)'],
   transform: {

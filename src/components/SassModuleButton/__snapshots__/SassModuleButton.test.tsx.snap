@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SassModuleButton base snapshot 1`] = `
+<div>
+  <div
+    class="root"
+  >
+    <button
+      class="button"
+    >
+      SassModuleButton
+    </button>
+    <div
+      class="text closed"
+    >
+      Test
+    </div>
+    <div
+      class="text closed"
+    >
+      Test
+    </div>
+    <div
+      class="some-global-class"
+    >
+      Global
+    </div>
+    <div
+      style="color: orange;"
+    >
+      Import Variable
+    </div>
+  </div>
+</div>
+`;
