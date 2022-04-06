@@ -9,6 +9,8 @@
     "test": "jest src"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
     "clsx": "^1.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

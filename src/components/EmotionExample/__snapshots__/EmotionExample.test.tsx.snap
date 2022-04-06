@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmotionExample base snapshot 1`] = `
+<div>
+  <div
+    class="css-1fn01zn"
+  >
+    <button
+      class="css-1k5qnfk"
+    >
+      SassModuleButton
+    </button>
+    <div
+      class="css-hmyq4b"
+    >
+      Test
+    </div>
+    <div
+      class="some-global-class"
+    >
+      Global
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SassModuleButton base snapshot 1`] = `
+<div>
+  <div
+    class="css-1fn01zn"
+  >
+    <button
+      class="css-1k5qnfk"
+    >
+      SassModuleButton
+    </button>
+    <div
+      class="css-hmyq4b"
+    >
+      Test
+    </div>
+    <div
+      class="some-global-class"
+    >
+      Global
+    </div>
+  </div>
+</div>
+`;

@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { CssButton } from './CssButton';
+import { CssExample } from './CssExample';
 
 describe('CssButton', () => {
   it('base snapshot', () => {
-    const { container } = render(<CssButton>CssButton</CssButton>);
+    const { container } = render(<CssExample>CssButton</CssExample>);
     expect(container).toMatchSnapshot();
   });
 });

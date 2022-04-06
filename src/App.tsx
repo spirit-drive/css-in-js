@@ -1,15 +1,17 @@
 import React from 'react';
-import { CssButton } from './components/CssButton';
-import { CssModuleButton } from "./components/CssModuleButton";
-import { SassModuleButton } from "./components/SassModuleButton";
+import { CssExample } from './components/CssExample';
+import { CssModuleExample } from "./components/CssModuleExample";
+import { SassModuleExample } from "./components/SassModuleExample";
+import { EmotionExample } from "./components/EmotionExample";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <CssButton>CssButton</CssButton>
-      <CssModuleButton>CssModuleButton</CssModuleButton>
-      <SassModuleButton>SassModuleButton</SassModuleButton>
+      <CssExample>CssExample</CssExample>
+      <CssModuleExample>CssModuleExample</CssModuleExample>
+      <SassModuleExample>SassModuleExample</SassModuleExample>
+      <EmotionExample>EmotionExample</EmotionExample>
     </div>
   );
 }

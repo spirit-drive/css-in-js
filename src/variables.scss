@@ -1,6 +1,9 @@
 $orange: #FF8E00;
 $orangeLight: #FFAA40;
 $orangeDark: #BF8030;
+$red: #FF0000;
+$redLight: #BF3030	;
+$redDark: #FF4040;
 $pink: pink;
 
 @mixin little-text {
@@ -12,5 +15,8 @@ $pink: pink;
   orange: $orange;
   orangeLight: $orangeLight;
   orangeDark: $orangeDark;
+  red: $red;
+  redLight: $redLight;
+  redDark: $redDark;
   pink: $pink;
 }

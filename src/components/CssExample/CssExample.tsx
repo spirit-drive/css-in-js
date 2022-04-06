@@ -1,12 +1,12 @@
 import React, { FC, useState } from 'react';
 import cn from 'clsx';
-import './CssButton.css';
+import './CssExample.css';
 
 export type ButtonProps = {
   className?: string;
 };
 
-export const CssButton: FC<ButtonProps> = ({ className, ...props }) => {
+export const CssExample: FC<ButtonProps> = ({ className, ...props }) => {
   const [opened, setOpened] = useState<boolean>(false);
   return (
     <div className={cn('CssButton', className)}>
