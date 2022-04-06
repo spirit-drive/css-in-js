@@ -1,0 +1,16 @@
+$orange: #FF8E00;
+$orangeLight: #FFAA40;
+$orangeDark: #BF8030;
+$pink: pink;
+
+@mixin little-text {
+  font-size: 12px;
+  color: #8B97A5;
+}
+
+:export {
+  orange: $orange;
+  orangeLight: $orangeLight;
+  orangeDark: $orangeDark;
+  pink: $pink;
+}

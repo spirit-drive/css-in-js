@@ -1,0 +1,30 @@
+@import src/variables
+
+.root
+  :global(.some-global-class)
+    color: $pink
+
+.button
+  border-radius: 8px
+  font-size: 18px
+  padding: 8px 16px
+  outline: none
+  border: 0
+  background-color: $orange
+  color: #fff
+  cursor: pointer
+
+  &:hover
+    background-color: $orangeLight
+
+  &:active
+    background-color: $orangeDark
+
+.text
+  +little-text()
+
+  &.opened
+    display: block
+
+  &.closed
+    display: none
