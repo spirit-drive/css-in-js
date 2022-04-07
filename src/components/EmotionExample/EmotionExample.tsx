@@ -1,15 +1,21 @@
 import React, {FC, useState} from 'react';
 import variables from '../../variables.scss';
 import styled from '@emotion/styled'
+import { css } from '@emotion/react';
 
-const Text = styled.div<{ opened: boolean }>`
+const common = css`
   font-size: 12px;
   color: #8B97A5;
+`;
+
+const Text = styled.div<{ opened: boolean }>`
+  ${common};
   display: ${props => props.opened ? 'block' : 'none'};
 `
 
 const Root = styled.div`
   .some-global-class {
+    ${common};
     color: ${variables.pink}
   }
 `
