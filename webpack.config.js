@@ -1,5 +1,6 @@
 const path = require("path");
 
+// const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -22,6 +23,7 @@ module.exports = {
       {
         test: /\.s[ac]ss$/i,
         use: [
+          // MiniCssExtractPlugin.loader,
           "style-loader",
           {
             loader: "css-loader",
@@ -36,16 +38,23 @@ module.exports = {
       },
       {
         test: /(?<!\.module)\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: [
+          // MiniCssExtractPlugin.loader, // использовать вместо style-loader
+          "style-loader",
+          "css-loader"
+        ],
       },
       {
         test: /(?<=\.module)\.css$/i,
         use: [
+          // MiniCssExtractPlugin.loader, // использовать вместо style-loader
           "style-loader",
           {
             loader: "css-loader",
             options: {
-              modules: true,
+              modules: {
+                localIdentName: '[name]_[local]-[hash:base64:5]',
+              },
             },
           }
         ],
@@ -56,5 +65,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
+    // new MiniCssExtractPlugin(),
   ],
 };

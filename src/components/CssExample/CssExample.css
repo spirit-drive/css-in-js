@@ -1,4 +1,4 @@
-.CssButton__button {
+.CssExample__button {
   border-radius: 8px;
   font-size: 18px;
   padding: 8px 16px;
@@ -9,22 +9,22 @@
   cursor: pointer;
 }
 
-.CssButton__button:hover {
+.CssExample__button:hover {
   background-color: #39E639;
 }
 
-.CssButton__button:active {
+.CssExample__button:active {
   background-color: #269926;
 }
 
-.CssButton__text {
+.CssExample__text {
   font-size: 18px;
 }
 
-.CssButton__text_opened {
+.CssExample__text_opened {
   display: block;
 }
 
-.CssButton__text_closed {
+.CssExample__text_closed {
   display: none;
 }

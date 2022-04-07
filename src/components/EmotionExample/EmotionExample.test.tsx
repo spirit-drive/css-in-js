@@ -4,7 +4,7 @@ import { EmotionExample } from './EmotionExample';
 
 describe('EmotionExample', () => {
   it('base snapshot', () => {
-    const { container } = render(<EmotionExample>SassModuleButton</EmotionExample>);
+    const { container } = render(<EmotionExample>EmotionExample</EmotionExample>);
     expect(container).toMatchSnapshot();
   });
 });

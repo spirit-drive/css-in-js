@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CssButton base snapshot 1`] = `
+<div>
+  <div
+    class="CssExample"
+  >
+    <button
+      class="CssExample__button"
+    >
+      CssButton
+    </button>
+    <div
+      class="CssExample__text CssExample__text_closed"
+    >
+      Test
+    </div>
+    <div
+      class="CssExample__text CssExample__text_closed"
+    >
+      Test
+    </div>
+  </div>
+</div>
+`;

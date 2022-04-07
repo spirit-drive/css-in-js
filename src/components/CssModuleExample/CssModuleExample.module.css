@@ -1,4 +1,4 @@
-.root :global(.some-global-class) {
+.root :global(.some-global-class), :global(.some-global-class1) {
   color: pink;
 }
 
