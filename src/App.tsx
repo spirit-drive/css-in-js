@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <CssExample>CssExample</CssExample>
       <CssModuleExample>CssModuleExample</CssModuleExample>
       <SassModuleExample>SassModuleExample</SassModuleExample>

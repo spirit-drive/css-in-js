@@ -9,10 +9,10 @@ export type ButtonProps = {
 export const CssExample: FC<ButtonProps> = ({ className, ...props }) => {
   const [opened, setOpened] = useState<boolean>(false);
   return (
-    <div className={cn('CssExample', className)}>
-      <button className={'CssExample__button'} {...props} onClick={() => setOpened(v => !v)} />
-      <div className={cn('CssExample__text', opened ? 'CssExample__text_opened' : 'CssExample__text_closed')}>Test</div>
-      <div className={cn('CssExample__text', !opened && 'CssExample__text_closed')}>Test</div>
+    <div className={cn('css-example', className)}>
+      <button className={'css-example__button'} {...props} onClick={() => setOpened(v => !v)} />
+      <div className={cn('css-example__text', opened ? 'css-example__text_opened' : 'css-example__text_closed')}>Test</div>
+      <div className={cn('css-example__text', !opened && 'css-example__text_closed')}>Test</div>
     </div>
   );
 }
