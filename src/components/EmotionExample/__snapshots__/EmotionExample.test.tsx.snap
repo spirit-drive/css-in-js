@@ -3,17 +3,17 @@
 exports[`EmotionExample base snapshot 1`] = `
 <div>
   <div
-    class="css-1fn01zn"
+    class="css-jcv2sj"
   >
+    <button
+      class="css-1k5qnfk"
+    >
+      EmotionExample
+    </button>
     <div
-      class="css-hmyq4b"
+      class="css-14x91a0"
     >
       Test
-      <button
-        class="css-1k5qnfk"
-      >
-        EmotionExample
-      </button>
     </div>
     <div
       class="some-global-class"

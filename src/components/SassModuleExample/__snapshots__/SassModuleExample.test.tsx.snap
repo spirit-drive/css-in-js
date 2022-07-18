@@ -16,19 +16,9 @@ exports[`SassModuleExample base snapshot 1`] = `
       Test
     </div>
     <div
-      class="text closed"
-    >
-      Test
-    </div>
-    <div
       class="some-global-class"
     >
       Global
-    </div>
-    <div
-      style="color: orange;"
-    >
-      Import Variable
     </div>
   </div>
 </div>

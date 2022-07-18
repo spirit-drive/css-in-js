@@ -1,4 +1,9 @@
-.root :global(.some-global-class), :global(.some-global-class1) {
+/* Почему это плохая практика? */
+:global(.some-global-class) {
+  color: red;
+}
+
+.root :global(.some-global-class) {
   color: pink;
 }
 

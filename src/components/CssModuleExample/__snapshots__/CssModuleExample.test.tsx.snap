@@ -20,23 +20,10 @@ exports[`CssModuleButton base snapshot 1`] = `
     >
       Test
     </div>
-    <div>
-      <div>
-        <div>
-          <div>
-            <div
-              class="some-global-class"
-            >
-              Global
-            </div>
-            <div
-              class="some-global-class1"
-            >
-              Global1
-            </div>
-          </div>
-        </div>
-      </div>
+    <div
+      class="some-global-class"
+    >
+      Global
     </div>
   </div>
 </div>
