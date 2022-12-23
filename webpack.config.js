@@ -37,15 +37,16 @@ module.exports = {
         ],
       },
       {
-        test: /(?<!\.module)\.css$/i,
+        test: /\.css$/i,
         use: [
           // MiniCssExtractPlugin.loader, // использовать вместо style-loader
           "style-loader",
           "css-loader"
         ],
+        exclude: /\.module\.css$/,
       },
       {
-        test: /(?<=\.module)\.css$/i,
+        test: /\.module\.css$/i,
         use: [
           // MiniCssExtractPlugin.loader, // использовать вместо style-loader
           "style-loader",
