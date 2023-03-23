@@ -5,9 +5,6 @@ exports[`CssButton base snapshot 1`] = `
   <div
     class="css-example"
   >
-    <div>
-      test
-    </div>
     <button
       class="css-example__button"
     >
