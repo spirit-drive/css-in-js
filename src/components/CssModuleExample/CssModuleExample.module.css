@@ -30,10 +30,10 @@
   font-size: 18px;
 }
 
-.opened {
+.text.opened {
   display: block;
 }
 
-.closed {
+.text.closed {
   display: none;
 }
