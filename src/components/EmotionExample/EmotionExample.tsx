@@ -1,4 +1,5 @@
-import React, {FC, useState} from 'react';
+import * as React from 'react';
+import { FC, useState } from 'react';
 import variables from '../../variables.scss';
 import styled from '@emotion/styled'
 import { css } from '@emotion/react';

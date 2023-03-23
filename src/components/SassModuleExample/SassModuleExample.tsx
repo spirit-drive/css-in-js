@@ -1,4 +1,5 @@
-import React, {FC, useState} from 'react';
+import * as React from 'react';
+import { FC, useState } from 'react';
 import cn from 'clsx';
 import variables from '../../variables.scss';
 import s from './SassModuleExample.module.sass';

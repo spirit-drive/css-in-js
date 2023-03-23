@@ -1,9 +1,11 @@
-import React, { FC, useState } from 'react';
+import * as React from 'react';
+import{ FC, useState } from 'react';
 import cn from 'clsx';
 import './CssExample.css';
 
 export type ButtonProps = {
   className?: string;
+  children?: React.ReactNode;
 };
 
 export const CssExample: FC<ButtonProps> = ({ className, ...props }) => {

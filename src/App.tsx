@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { CssExample } from './components/CssExample';
 import { CssModuleExample } from "./components/CssModuleExample";
 import { SassModuleExample } from "./components/SassModuleExample";

@@ -11,16 +11,13 @@ module.exports = {
   transformIgnorePatterns: ['/node_modules/(?!react-file-drop)'],
   transform: {
     '^.+\\.(js|jsx)$': '<rootDir>/node_modules/babel-jest',
-    '\\.(ts|tsx)$': 'ts-jest',
+    '\\.(ts|tsx)$': ['ts-jest', {
+      babel: true,
+      tsconfig: 'tsconfig.json',
+    }],
   },
   modulePaths: ['src'],
   testRegex: '(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js|jsx)$',
   testPathIgnorePatterns: ['\\.snap$', '\\.sass$', '<rootDir>/node_modules/'],
   cacheDirectory: '.jest/cache',
-  globals: {
-    'ts-jest': {
-      babel: true,
-      tsconfig: 'tsconfig.json',
-    },
-  },
 };
